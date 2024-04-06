@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "name": "words.cards.15-elysia",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia-vite": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
